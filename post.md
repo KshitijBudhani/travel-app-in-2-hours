@@ -183,7 +183,7 @@ module.exports = function(app) {
   app.use(morgan('dev'));
   app.use(bodyParser());
   app.use(multer());
-  app.use(cookieParser('Twyst_2014_Sessions'));
+  app.use(cookieParser('sabreSessions'));
 
   app.use(methodOverride());
 
