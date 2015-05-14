@@ -42,7 +42,7 @@ By now, it was about 8:20 am: 100 minutes left!
 
 ## Writing some code: 8:20 am
 
-I decided to get my hands dirty with somde code. I found the Sabre had [published](https://github.com/SabreDevStudio/sabre-dev-studio-node) an npm module on GitHub that wraps their API's - handy!
+I decided to get my hands dirty with somde code. I found that Sabre had [published](https://github.com/SabreDevStudio/sabre-dev-studio-node) an npm module on GitHub that wraps their APIs - handy!
 
 So, to get started I did this:
 
