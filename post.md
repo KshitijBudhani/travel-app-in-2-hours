@@ -396,20 +396,20 @@ Anyway, not much time to think - it's time to code up this UI! What did I want, 
 
 Taking it one at a time, this is how the UI built up: first the heading:
 
-```HTML
+```markup
 <div class="p+">
   <span class="fs-display-3 display-block">Get Lost</span>
   <span class="fs-title display-block">goofing around with @appa</span>
 </div>
 ```
 Then, the reference to the MainCtrl and the row...
-```HTML
+```markup
 <div ng-controller="MainCtrl">
   <div class="mt++" flex-container="row" flex-gutter="24">
 ```
 Next, the first column - this one would ask the user to pick a city...
 
-```HTML
+```markup
 <div flex-item>
   <lx-select ng-model="info.origin" placeholder="Starting airport" choices="cities" floating-label>
     <lx-select-selected>
@@ -423,7 +423,7 @@ Next, the first column - this one would ask the user to pick a city...
 </div>
 ```
 And, the next column, and end the row:
-```HTML
+```markup
 <div flex-item>
   <lx-select ng-model="info.maxfare" placeholder="Budget" choices="prices" floating-label>
     <lx-select-selected>
@@ -439,7 +439,7 @@ And, the next column, and end the row:
 ```
 
 Now, for the next row with the two columns with date pickers:
-```HTML
+```markup
 <div class="mt++" flex-container="row" flex-gutter="24">
   <div flex-item>
     <form>
@@ -455,7 +455,7 @@ Now, for the next row with the two columns with date pickers:
 </div>
 ```
 Then, a row with the submit button:
-```HTML
+```markup
 <div class="mt++" flex-container="row" flex-gutter="24">
   <div flex-item>
     <div flex-container="column" flex-align="space-between center">
@@ -465,7 +465,7 @@ Then, a row with the submit button:
 </div>
 ```
 Now, for the row that handles the response...
-```HTML
+```markup
 <div class="mt++" flex-container="row" flex-gutter="24" flex-wrap ng-show="results">
   <div ng-show="results.status" class="p++">
     <div flex-item="6">
